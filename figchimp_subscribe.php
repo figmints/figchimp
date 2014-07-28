@@ -7,7 +7,7 @@ function figchimp_subscribe() {
     // Get widget options
     $widget  = get_option('widget_figchimp_widget');
     // Extract options
-    $options = $widget[4];
+    $options = reset($widget);
     // Get apikey
     $apikey  = $options['APIkey'];
     // Get listId
