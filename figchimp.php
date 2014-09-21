@@ -74,19 +74,6 @@ class Figchimp_Widget extends WP_Widget {
     echo $before_widget;
       include dirname(__FILE__) . '/form.php';
     echo $after_widget;
-    // $form ='<div class="thanks">Thanks for subscribing! Check your e-mail for confirmation</div>
-    //         <div class="error"></div>
-    //         <form class="single mailChimp">
-    //           <input type="submit" class="submit" value="Subscribe"/>
-    //           <input type="text" class="email" value=""/>
-    //           <div class="clearall"></div>
-    //          </form>';
-
-    // echo '<div id="newsletter" class="aside widget">';
-    // if ( ! empty( $title ) && ! empty( $description ) )
-    //   echo $before_title . $title . $after_title;
-    //   echo __( '<p class="newsletter-desc">' . $description . '</p>' . $form, 'text_domain' );
-    //   echo $after_widget;
   }
 
   /**
